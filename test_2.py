@@ -6,7 +6,7 @@ game.headers["Event"] = "Example"
 node = game.add_variation(chess.Move.from_uci("e2e4"))
 node = node.add_variation(chess.Move.from_uci("e7e5"))
 
-node = node.add_variation(chess.Move.from_uci("g2g4"))
+node = node.add_variation(chess.Move.from_uci("g2g4")) 
 # node = node.add_variation(chess.Move.from_uci("Qh5"))
 # node = node.add_variation(chess.Move.from_uci("Nc6"))
 # node = node.add_variation(chess.Move.from_uci("Bc4"))
