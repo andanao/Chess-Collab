@@ -1,1 +1,1 @@
-print('fuck')
+print('fuck') # a linear 1 state cehss engine that 99% of cases outputs "fuck"
