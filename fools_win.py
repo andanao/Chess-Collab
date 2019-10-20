@@ -1,12 +1,12 @@
 # import asyncio
 import chess
 import chess.engine
-import fools_engine
+import FirstOrderOptimalLongtermStrategy as eng2
 
 # def main():
 print("\n\n\n\n\n\n\n")
 engine = chess.engine.SimpleEngine.popen_uci("C:\\Users\\Adrian\\Downloads\\stockfish-10-win\\stockfish-10-win\\Windows\\stockfish_10_x64")
-engine2 = fools_engine.fools()
+engine2 = eng2.fools()
 # transport2, engine_crap = await chess.engine.popen_uci("C:\\Users\\Adrian\\Downloads\\stockfish-10-win\\stockfish-10-win\\Windows\\stockfish_10_x32")
 # transport, engine_crap = await chess.engine.popen_uci("C:\\Users\\Adrian\\Downloads\\stockfish-10-win\\stockfish-10-win\\Windows\\stockfish_10_x64")
 print("", file=open("stockfish_test5.pgn", "w+"), end="")
