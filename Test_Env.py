@@ -2,7 +2,7 @@
 import chess
 import chess.engine
 import FirstOrderOptimalLongtermStrategy as eng1
-import FirstOrderOptimalLongtermStrategy as eng2
+import RandomAllpurposeNonDeterministicOutcomeManipulation as eng2
 
 
 print("\n\n\n\n\n\n\n")
