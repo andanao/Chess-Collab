@@ -1,3 +1,5 @@
+
+Fools
 e2e4
 r n b q k b n r
 p p p p p p p p
@@ -7,6 +9,8 @@ p p p p p p p p
 . . . . . . . .
 P P P P . P P P
 R N B Q K B N R
+
+Stockfish AI
 d7d5
 r n b q k b n r
 p p p . p p p p
@@ -16,6 +20,8 @@ p p p . p p p p
 . . . . . . . .
 P P P P . P P P
 R N B Q K B N R
+
+Fools
 d1f3
 r n b q k b n r
 p p p . p p p p
@@ -25,39 +31,58 @@ p p p . p p p p
 . . . . . Q . .
 P P P P . P P P
 R N B . K B N R
-d5e4
+
+Stockfish AI
+d5d4
 r n b q k b n r
 p p p . p p p p
 . . . . . . . .
 . . . . . . . .
-. . . . p . . .
+. . . p P . . .
 . . . . . Q . .
 P P P P . P P P
 R N B . K B N R
+
+Fools
 f1c4
 r n b q k b n r
 p p p . p p p p
 . . . . . . . .
 . . . . . . . .
-. . B . p . . .
+. . B p P . . .
 . . . . . Q . .
 P P P P . P P P
 R N B . K . N R
-e4f3
+
+Stockfish AI
+e7e6
 r n b q k b n r
-p p p . p p p p
+p p p . . p p p
+. . . . p . . .
 . . . . . . . .
-. . . . . . . .
-. . B . . . . .
-. . . . . p . .
+. . B p P . . .
+. . . . . Q . .
 P P P P . P P P
 R N B . K . N R
-0000
+
+Fools
+f3f7
 r n b q k b n r
-p p p . p p p p
+p p p . . Q p p
+. . . . p . . .
 . . . . . . . .
+. . B p P . . .
 . . . . . . . .
-. . B . . . . .
-. . . . . p . .
+P P P P . P P P
+R N B . K . N R
+
+Stockfish AI
+e8f7
+r n b q . b n r
+p p p . . k p p
+. . . . p . . .
+. . . . . . . .
+. . B p P . . .
+. . . . . . . .
 P P P P . P P P
 R N B . K . N R
