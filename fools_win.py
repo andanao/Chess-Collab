@@ -12,17 +12,20 @@ engine2 = fools_engine.fools()
 print("", file=open("stockfish_test5.pgn", "w+"), end="")
 
 
-tlim = .005
+tlim = .01
 board = chess.Board()
 while not board.is_game_over():
     result2 = engine2.play(board, chess.engine.Limit(time=tlim))
     board.push(result2)
     print(board.uci(result2), file=open("stockfish_test5.pgn", "a+"))
+    print(board, file=open("stockfish_test5.pgn", "a+"))
     if board.is_game_over():
         break
     result = engine.play(board, chess.engine.Limit(time=tlim))
     board.push(result.move)
+    print("US", file=open("stockfish_test5.pgn", "a+"))
     print(board.uci(result.move), file=open("stockfish_test5.pgn", "a+"))
+    print(board, file=open("stockfish_test5.pgn", "a+"))
 
     # result = await engine_crap.play(board, chess.engine.Limit(time=tlim))
     # board.push(result.move)
