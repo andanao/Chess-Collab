@@ -1,5 +1,4 @@
 import chess
-import chess.engine
 
 # moveset = ["d2d4", "e1c3", "c1f4", "c3c7"]
 
