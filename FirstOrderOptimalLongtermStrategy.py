@@ -1,8 +1,8 @@
 import chess
-
+# done 10:12
 # moveset = ["d2d4", "e1c3", "c1f4", "c3c7"]
 
-class fools:
+class engine:
     # needs initializer
     def __init__(self):
         self.moveset = ["e2e4", "d1f3", "f1c4", "f3f7"]
